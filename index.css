@@ -1,0 +1,74 @@
+body{
+    background-image: url(images/tea_garden.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.menu{
+    width: 80%;
+    max-width:500px;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    background-color: rgb(181, 212, 171);
+}
+h1 {
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1,h2,p{
+    text-align: center;
+}
+
+.established{
+    font-style: italic;
+    font-weight: lighter;
+    font-size:large;
+}
+
+.item p{
+    display: inline-block;
+    margin-top:5px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+img{
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -30px;
+}
+.flavour,.type{
+    width: 75%;
+    text-align: left;
+
+}
+
+.price{
+    width:25%;
+    text-align: right;
+}
+
+hr{
+    background-color: rgb(43, 102, 4);
+    height: 2px;
+    border-color: rgb(43, 102, 4);
+}
+footer{
+    font-size: 18px;
+}
+
+a:hover{
+    color: rgb(6, 94, 24);
+}
